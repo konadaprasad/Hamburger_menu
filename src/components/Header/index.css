@@ -1,0 +1,146 @@
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 10vh;
+  width: 100%;
+  border-bottom: 1px solid #bfbfbf;
+  font-family: 'roboto';
+  list-style-type: none;
+}
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.cont1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 10px;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.trigger-button {
+  background-color: transparent;
+  border: none;
+  text-align: end;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+.icon1 {
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+}
+.home-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.home-img {
+  height: 500px;
+  width: 700px;
+}
+.home-cont1 {
+  display: none;
+}
+.link {
+  text-decoration: none;
+}
+.notfound-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 20px;
+}
+.notfound-img {
+  height: 400px;
+  width: 500px;
+}
+.para {
+  font-size: 20px;
+  color: #bfbfbf;
+}
+.about-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.about-cont1 {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .home-cont {
+    display: none;
+  }
+  .home-cont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-img {
+    height: 100px;
+    width: 200px;
+  }
+  .website-logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .about-cont {
+    display: none;
+  }
+  .about-cont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .notfound-img {
+    height: 100px;
+    width: 200px;
+  }
+}
